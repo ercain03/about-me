@@ -43,5 +43,36 @@ while (i <= 3) {
     alert('Please enter a real number.');
   }
   i++;
-  alert('Sorry your\'re all out of tries.');
 }
+
+alert('Now, for your final question.');
+
+var finalQuestion = prompt('Are you ready?');
+if (funFactor.toLowerCase() === 'y' || funFactor.toUpperCase() === 'YES') {
+  alert('Drum roll please!!!!');
+} else if (funFactor.toLowerCase() === 'n' || funFactor.toUpperCase() === 'NO') {
+  alert('Don\'t be afraid you got this.');
+} else {
+  alert('Please enter a yes or no.');
+}
+
+var myEthnicity = ['AFRICAN-AMERICAN', 'PUERTO RICAN', 'GERMAN'];
+var i = 0;
+while (i <= 5) {
+  var userQuestion3 = prompt('Can you guess what ethnicity I am?');
+  if (userQuestion3.toUpperCase() === myEthnicity[0]){
+    alert('you got it right.');
+    break;
+  } else if (userQuestion3.toUpperCase() === myEthnicity[1]){
+    alert('you got it right.');
+    break;
+  } else if (userQuestion3.toUpperCase() === myEthnicity[2]){
+    alert('you got it right.');
+    break;
+  } else {
+    alert('please try again.');
+  }
+  i++;
+}
+
+alert('I am racially mixed with ' + myEthnicity[0] + ', ' + myEthnicity[1] + ', ' + myEthnicity[2]);
