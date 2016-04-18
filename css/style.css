@@ -1,0 +1,91 @@
+
+html, body {
+  background-color: #FFF8DC;
+  color: #B8860B;
+  font-family: 'Indie Flower',Arial,cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.selfie {
+  background-color: #B8860B;
+  color: #FFF8DC;
+  border-bottom: 5px solid white;
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 8s; /* Chrome, Safari, Opera */
+  -moz-animation-name: example;
+  -moz-animation-duration: 8s;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.me {
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+img {
+  width: 450px;
+  height:450px;
+}
+
+.name {
+  text-align: center;
+  padding: 15px 0 25px 0;
+  font-size: 80px;
+  text-shadow: 4px 4px black;
+}
+
+h2 {
+  color: black;
+}
+
+.headers {
+  margin: 10px 0 5px 20px;
+  color: black;
+}
+
+.ul-list {
+  margin-left: 50px;
+}
+
+.slogan p {
+  margin: 20px 0 30px 43px;
+}
+
+.par-bio {
+  margin: 15px 20px 30px 48px;
+}
+
+li {
+  list-style-type: circle;
+}
+
+.list {
+  margin: 20px 0 30px 0;
+}
+
+.all-content {
+  font-size: 20px;
+}
+
+@-webkit-keyframes example {
+  0%   {background-color: #FFFF00;}
+  25%  {background-color: #FFF8DC;}
+  50%  {background-color: #614126;}
+  75%  {background-color: #000000;}
+  100% {background-color: #FFFFCC;}
+}
+
+@keyframes example {
+  0%   {background-color: #FFFF00;}
+  25%  {background-color: #FFF8DC;}
+  50%  {background-color: #614126;}
+  75%  {background-color: #000000;}
+  100% {background-color: #FFFFCC;}
+}
