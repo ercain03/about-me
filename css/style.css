@@ -23,6 +23,22 @@ html, body {
   animation-iteration-count: infinite;
 }
 
+@-webkit-keyframes example {
+  0%   {background-color: #FFFF00;}
+  25%  {background-color: #FFF8DC;}
+  50%  {background-color: #614126;}
+  75%  {background-color: #000000;}
+  100% {background-color: #FFFFCC;}
+}
+
+@keyframes example {
+  0%   {background-color: #FFFF00;}
+  25%  {background-color: #FFF8DC;}
+  50%  {background-color: #614126;}
+  75%  {background-color: #000000;}
+  100% {background-color: #FFFFCC;}
+}
+
 .me {
   display: block;
   margin: 0 auto;
@@ -41,6 +57,10 @@ img {
   text-shadow: 4px 4px black;
 }
 
+.slogan p {
+  margin: 20px 0 30px 43px;
+}
+
 h2 {
   color: black;
 }
@@ -50,12 +70,8 @@ h2 {
   color: black;
 }
 
-.ul-list {
+.list li, .ol-list li {
   margin-left: 50px;
-}
-
-.slogan p {
-  margin: 20px 0 30px 43px;
 }
 
 .par-bio {
@@ -70,22 +86,10 @@ li {
   margin: 20px 0 30px 0;
 }
 
+.ol-list {
+  margin: 20px 0 30px 0;
+}
+
 .all-content {
   font-size: 20px;
-}
-
-@-webkit-keyframes example {
-  0%   {background-color: #FFFF00;}
-  25%  {background-color: #FFF8DC;}
-  50%  {background-color: #614126;}
-  75%  {background-color: #000000;}
-  100% {background-color: #FFFFCC;}
-}
-
-@keyframes example {
-  0%   {background-color: #FFFF00;}
-  25%  {background-color: #FFF8DC;}
-  50%  {background-color: #614126;}
-  75%  {background-color: #000000;}
-  100% {background-color: #FFFFCC;}
 }
